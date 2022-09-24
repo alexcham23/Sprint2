@@ -1,0 +1,38 @@
+body {
+    background-color: #f3f5fc
+  }
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  html {
+    font-size: 16px;
+  }
+
+  [type="button"] {
+    width: 20rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    border: solid 1px #0a3871;
+    color: #0a3871;
+    background: inherit;
+    cursor: pointer;
+  }
+
+  .btn-azul {
+    background-color: #0a3871;
+    color: #fff;
+    border-color: #000;
+  }
+  
+  .botones {
+    
+    position: relative;
+    text-align: center;
+    margin-top: 5rem;
+    left: 0%;
+    padding-block: 10rem;
+
+  }
