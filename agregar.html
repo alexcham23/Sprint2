@@ -1,12 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/agregar_css.css" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Agregar Palabras</title>
 </head>
+
 <body>
-    
+    <div>
+
+        <form class="formulario" method="post" action="">
+            <div class="texto">
+                <h3 class="letra">Ingrese una Palabra</h3>
+                <input type="text" id="texto1" pattern="[a-zA-Z]" maxlength="8"></input>
+                <h5 class="letra2">Max. 8 letras</h5>
+            </div>
+            <div class="botones">
+                <input type="button" class="btn-azul" value="Guardar y Emplazar" onclick="guardar()" />
+                <input type="button" value="Cancelar" />
+            </div>
+
+        </form>
+        <script src="js/app_aux.js"></script>      
+    </div>
+
 </body>
+
 </html>

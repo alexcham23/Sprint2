@@ -1,0 +1,111 @@
+body {
+    background-color: #f3f5fc
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 16px;
+}
+
+[type="button"] {
+    width: 15rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 1px #0a3871;
+    color: #0a3871;
+    background: inherit;
+    cursor: pointer;
+}
+
+.btn-azul {
+    background-color: #0a3871;
+    color: #fff;
+    border-color: #000;
+}
+
+.formulario {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.formulario.botones {
+    display: relative;
+    padding: 30rm;
+    top: 50%;
+}
+.letra {
+    position: relative;
+    width: 299px;
+    height: 20px;
+    left: 576px;
+    top: 50px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+}
+.letra2 {
+    /* Máx. de 8 letras */
+
+    position: relative;
+    width: 299px;
+    height: 70px;
+    left: 70%;
+    top: 90%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    /* identical to box height, or 18px */
+
+
+    /* Gray/gray-400 */
+
+    color: #495057;
+
+    opacity: 0.8;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+.texto{
+    width: 700px;
+    height: 500px;
+    top: 0px;
+}
+.texto input{
+    position: absolute;
+    width: 407px;
+    height: 48px;
+    left: 600px;
+    top: 168px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    /* identical to box height, or 48px */
+
+
+    /* Dark blue/dark-blue-300 */
+
+    color: #0A3871;
+}
